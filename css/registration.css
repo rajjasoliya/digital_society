@@ -1,0 +1,89 @@
+* {
+  background: #d3faff;
+}
+.zero_part {
+  position: absolute;
+  width: 850px;
+  height: auto;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #0a9fb4;
+  border-radius: 15px;
+  padding: 40px;
+}
+.part {
+  display: flex;
+}
+.first_part {
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-left: 5%;
+}
+.second_part {
+  width: auto;
+  height: auto;
+  margin-left: 15%;
+  position: relative;
+}
+button,
+select,
+input {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.working-title {
+  border: 2px solid black;
+  background: #ccc;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+.registration_text {
+  text-align: center;
+  font-size: 30px;
+  color: #0a9fb4;
+  margin-bottom: 25px;
+  margin-top: -10px;
+}
+
+.input-container2 label {
+  float: left;
+  position: absolute;
+  font-size: 16px;
+  color: #000;
+  pointer-event: none;
+  transition: all 0.5s ease-in-out;
+}
+.input-container2 input {
+  border: 0;
+  border-bottom: 1px solid #0a9fb4;
+  background: transparent;
+  width: auto;
+  font-size: 16px;
+  color: #000;
+}
+.input-container2 input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #0a9fb4;
+}
+.role,
+.society,
+.gender {
+  color: #0a9fb4;
+  border-color: #0a9fb4;
+}
+.role,
+.society,.submit_btn,
+.gender:hover {
+  cursor: pointer;
+}
+.submit_btn {
+  margin-left: 45%;
+  border-color: #0a9fb4;
+}

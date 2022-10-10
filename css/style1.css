@@ -1,0 +1,310 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background: #D3FAFF;
+}
+/* @media (max-width: 800px) {
+    .headlinks {
+      flex-direction: column;
+    }
+  } */
+#header{
+    
+position: absolute;
+width: 1920px;
+height: 969px;
+left: 0px;
+top: 0px;
+
+background: #D3FAFF;
+}
+.logo-txt{
+    
+position: absolute;
+font-size:25px;
+width: 400px;
+height: 120px;
+margin-left: 50px;
+margin-top: 50px;
+letter-spacing:0.3em;
+}
+.tag{
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+.headlinks{
+display:flex;
+position: absolute;
+width:auto;
+height: auto;
+margin-left: 1050px;
+margin-top: 46px;
+
+}
+.headlinks a{
+    padding:5px;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    margin:20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #252525;
+}
+.headlinks a:hover{
+    text-decoration: underline;
+    transition:0.6s;
+    font-size:15.5px;
+}
+
+.newarrivals{
+
+    position: absolute;
+    width: 268px;
+    height: 36px;
+    left: 242px;
+    top: 241px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+.SUMMER{
+
+    position: absolute;
+    width: 419px;
+    height: 145px;
+    left: 228px;
+    top: 302px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 72px;
+    /* or 111% */
+    
+    
+    color:#0A9FB4;
+    
+}
+.summerdesc{
+
+    position: absolute;
+    width: 439px;
+    left: 244px;
+    top: 472px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    
+    
+    color: #000000;
+}
+.shopnow{
+
+    position: absolute;
+    width: 178px;
+    height: 48px;
+    left: 244px;
+    top: 715px;
+font-weight: bold;
+font-size: 18px;
+    background: #0A9FB4;
+    border-radius: 6px;
+    color:white;
+    border:none;
+}
+.shopnow:hover{
+    background:none;
+    color:#0a9fb4;
+    transition:0.65s;
+    cursor: pointer;
+    border: 2px solid #0A9FB4;
+}
+.seemore{
+    
+position: absolute;
+width: 178px;
+height: 48px;
+left: 442px;
+top: 715px;
+font-weight: bold;
+font-size: 18px;
+background: #D3FAFF;
+border: 2px solid #0A9FB4;
+box-sizing: border-box;
+border-radius: 6px;
+color:#0a9fb4;
+}
+
+.seemore:hover{
+    border:none;
+    color:white;
+    background:#0a9fb4;
+    transition:0.65s;
+    cursor: pointer;
+}
+.login-form{
+    position:absolute;
+    width:430px;
+    height:400px;
+    top:280px;
+    left:1000px;
+    border-radius: 15px;
+    border:3px solid #0a9fb4;
+    padding:20px;
+    
+}
+form h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0a9fb4;
+    padding:10px;
+}
+.input-container label{
+	position:absolute;
+	font-size:16px;
+	color:#000;	
+    pointer-event:none;
+	transition: all 0.5s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #0a9fb4;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#000;
+  margin-top: 10px;
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #0a9fb4;	
+}
+
+.btn{
+	color:#fff;
+	background-color:#0a9fb4;
+	outline: none;
+    border: 0;
+	padding:10px 20px;
+	text-transform:uppercase;
+	margin-top:50px;
+	border-radius:2px;
+	cursor:pointer;
+    margin-left: 70px;
+    text-decoration: none;
+}
+.btn:hover,.btn-a:hover{
+    background-color:#D3FAFF;
+    color:#0A9FB4;
+}
+.center-img{
+    position:absolute;
+    width:800px;
+    height:400px;
+    top:280px;
+    left:880px;
+    border-radius: 25px;
+    padding:20px;
+}
+
+.image {
+    min-width: 400px;
+    height: 250px;
+    border-radius: 25px;
+    
+  }
+  .overlay {
+      font-weight: bold;
+    position: absolute; 
+    bottom: 0; 
+    color: #f1f1f1; 
+    width: fit-content;
+    transition: .5s ease;
+    opacity:10;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    letter-spacing:0.2em;
+    border: 2px solid white;
+  }
+  
+/* 
+  .container-overlay:hover .overlay {
+    opacity: 1;
+   }   */
+  .container-overlay{
+      position: relative;
+      margin:20px;
+      text-align: center;
+      width:auto;
+      justify-content: center;
+      align-items: center;
+  } 
+  .incorrect{
+     position: relative;
+     width:fit-content;
+     border: 2px solid red;
+     padding: 10px;
+     color: red;
+     margin-top: 38%;margin-left: 58%;
+  }
+  .notice-image{
+      position: absolute;
+      top:5%;
+      left:50%;
+      transform: translate(-50%, 10%);
+  }
+  .notice-image img{
+      width:1200px;
+      height:600px;
+  }
+  .overlap-txt{
+      position: relative;
+      top:-550px;
+      left:85px;
+      width:800px;
+      height: 500px;
+      overflow: hidden;
+      font-weight: bold;
+      font-size: 2.5em;
+      font-family: "Helvetica Neue";
+      color: #fff;
+  }
+  .news-link{
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%, -50%);  
+   
+  }
+  .news-link a{
+    font-size: 2.5em;
+    color:red;
+    text-decoration: none;
+    border: 2px solid #0A9FB4;
+    padding: 0.5em;
+    border-radius:10px; 
+  }
